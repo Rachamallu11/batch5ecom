@@ -1,0 +1,24 @@
+{
+	"name": "SCH_TRIGGER_REST_TO_PQT",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_REST_TO",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-12-10T02:32:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

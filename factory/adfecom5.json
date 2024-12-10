@@ -1,0 +1,9 @@
+{
+	"name": "adfecom5",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3eb661a7-61ce-44fa-bed5-8ef0fc434628",
+		"tenantId": "d11cf4fa-7ce4-458c-aab2-cfabd39f9b9a"
+	}
+}

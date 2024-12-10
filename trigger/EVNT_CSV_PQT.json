@@ -1,0 +1,24 @@
+{
+	"name": "EVNT_CSV_PQT",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_ADLS_TO_PQT",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/manualfilepayment/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/d579cfea-e155-4a17-808b-bedfedc16e1c/resourceGroups/rg_batch5_proj_resource/providers/Microsoft.Storage/storageAccounts/adlsrawecom5",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
